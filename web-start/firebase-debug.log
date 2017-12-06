@@ -1,0 +1,73 @@
+[debug] [2017-12-06T19:47:56.866Z] ----------------------------------------------------------------------
+[debug] [2017-12-06T19:47:56.869Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-06T19:47:56.869Z] CLI Version:   3.16.0
+[debug] [2017-12-06T19:47:56.869Z] Platform:      win32
+[debug] [2017-12-06T19:47:56.869Z] Node Version:  v5.11.1
+[debug] [2017-12-06T19:47:56.870Z] Time:          Wed Dec 06 2017 14:47:56 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:47:56.870Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-06T19:47:56.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-06T19:47:56.883Z] > authorizing via signed-in user
+[debug] [2017-12-06T19:47:56.884Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-06T19:47:56.885Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/fKRn3cVwZCxzy3paOldYnF9TVWcR3xBbfD76-RgPsl0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Dec 06 2017 14:47:56 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:47:57.665Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T19:47:57.734Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/zapchat-71dcf  
+  
+ Wed Dec 06 2017 14:47:57 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:47:58.412Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T19:47:58.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/zapchat-71dcf/tokens  
+  
+ Wed Dec 06 2017 14:47:58 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:47:59.177Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\projects\zapchat\web-start'...
+[info] 
+[debug] [2017-12-06T19:47:59.184Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/zapchat-71dcf  
+  
+ Wed Dec 06 2017 14:47:59 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:48:00.091Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T19:48:00.092Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1044883994482/clients/_:getWebAppConfig  
+  
+ Wed Dec 06 2017 14:48:00 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:48:01.206Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-12-06T19:59:17.166Z] ----------------------------------------------------------------------
+[debug] [2017-12-06T19:59:17.170Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-06T19:59:17.170Z] CLI Version:   3.16.0
+[debug] [2017-12-06T19:59:17.170Z] Platform:      win32
+[debug] [2017-12-06T19:59:17.170Z] Node Version:  v5.11.1
+[debug] [2017-12-06T19:59:17.172Z] Time:          Wed Dec 06 2017 14:59:17 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:59:17.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-06T19:59:17.186Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-06T19:59:17.186Z] > authorizing via signed-in user
+[debug] [2017-12-06T19:59:17.188Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/zapchat-71dcf  
+  
+ Wed Dec 06 2017 14:59:17 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:59:17.736Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T19:59:17.738Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/zapchat-71dcf/tokens  
+  
+ Wed Dec 06 2017 14:59:17 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:59:18.102Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\projects\zapchat\web-start'...
+[info] 
+[debug] [2017-12-06T19:59:18.106Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/zapchat-71dcf  
+  
+ Wed Dec 06 2017 14:59:18 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:59:18.567Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T19:59:18.568Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1044883994482/clients/_:getWebAppConfig  
+  
+ Wed Dec 06 2017 14:59:18 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-06T19:59:19.185Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
